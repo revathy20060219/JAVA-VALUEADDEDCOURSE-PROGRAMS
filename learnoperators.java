@@ -1,0 +1,71 @@
+import java.util.*;
+public class learnoperators
+{
+public static void main(String args[])
+{
+int a=5;
+System.out.println(a);
+
+
+a+=7;
+System.out.println("the value of a:"+a);
+
+
+
+int b=10;
+int c=20;
+
+
+System.out.println(b+c);
+System.out.println(b-c);
+System.out.println(b*c);
+System.out.println(b/c);
+System.out.println(b%c);
+System.out.println("--------------------");
+        
+
+
+int p=5;
+int q=7;
+
+System.out.println(p==q);
+System.out.println(p!=q);
+System.out.println(p<q);
+System.out.println(p<=q);
+System.out.println(p>=q);
+
+
+System.out.println("----------------------");
+
+
+
+int s=20;
+
+int m=15;
+
+System.out.println(s>m && s>=m);
+
+System.out.println(s==m||s<m);
+
+
+System.out.println("---------------------------");
+
+
+
+int k=7;
+
+
+System.out.println(k++);
+System.out.println(k);
+
+
+System.out.println(++k);
+System.out.println(k);
+System.out.println(k--);
+System.out.println(k);
+System.out.println(--k);
+System.out.println(k);
+}
+}
+
+
